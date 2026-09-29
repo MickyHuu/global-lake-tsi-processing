@@ -1,7 +1,8 @@
 This repository contains the Python code used for the analysis and visualization of long-term global lake trophic state index (TSI) records from 1984 to 2023.
 
 
-### `01_mapping_global_TSI.py`
+01_mapping_global_TSI.py
+
 Plots the spatial distribution of long-term mean lake TSI at the global scale.
 Main inputs:
 - Lake-level long-term mean TSI table
@@ -10,7 +11,8 @@ Main output:
 - Global map of long-term mean TSI
 
 
-### `02_MannKendall_test.py`
+02_MannKendall_test.py
+
 Calculates lake-level long-term temporal trends using:
 - Theil–Sen slope
 - Mann–Kendall trend test
@@ -28,7 +30,8 @@ Trend classes are:
 - Not significant
 
 
-### `03_segmented_regression.py`
+03_segmented_regression.py
+
 Performs global-scale breakpoint analysis on standardized lake TSI time series.
 The script:
 1. standardizes each lake time series using a z-score;
@@ -48,7 +51,8 @@ Main outputs include:
 - Global breakpoint figures
 
 
-### `04_plot_continent_breakpoints.py`
+04_plot_continent_breakpoints.py
+
 Visualizes continental-scale TSI breakpoint results for:
 - North America
 - Europe
@@ -56,4 +60,7 @@ Visualizes continental-scale TSI breakpoint results for:
 - Africa
 - South America
 - Oceania
+
+
+
 
